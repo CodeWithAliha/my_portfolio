@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
 
       {/* Globe & tech icons */}
-      <div className="globe-container">
+      <div className="globe-container mb-5">
         <div className="globe"></div>
         <div className="tech-icon icon-1"><div className="icon-content">React</div></div>
         <div className="tech-icon icon-2"><div className="icon-content">Node</div></div>
@@ -29,8 +29,8 @@ const Hero = () => {
         <div className="tech-icon icon-8"><div className="icon-content">PHP</div></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
-        <div className="animate-fadeInUp">
+      <div className="max-w-7xl mx-auto px-6 text-center relative z-10 mt-24">
+        <div className="animate-fadeInUp mt-5">
           <h2 className="text-red-500 text-xl md:text-2xl font-semibold mb-4 animate-slideInLeft">
             Hello, I'm
           </h2>
